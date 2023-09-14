@@ -1,0 +1,4 @@
+flowchart TD
+    A[Form Submit] -->B(Rerenders notes on the page including the new note)
+    B --> C(API JSON Data)
+    C -->|Sends Data to server| D{Server}
